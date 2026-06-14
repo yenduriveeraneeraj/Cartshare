@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>CartShare Room</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="room-page">
+
+<div class="top-bar">
+
+<h1>CartShare Room</h1>
+
+<div id="roomInfo"></div>
+
+<button id="receiptBtn">
+Generate Receipt
+</button>
+<button id="themeBtn">
+
+🌙 Dark Mode
+
+</button>
+
+</div>
+
+<div class="grid-layout">
+
+<div class="card">
+
+<h2>Add Item</h2>
+
+<input
+type="text"
+id="itemName"
+placeholder="Item Name">
+
+<input
+type="number"
+id="itemPrice"
+placeholder="Estimated Price (Optional)">
+
+<input
+type="number"
+id="itemQuantity"
+placeholder="Quantity">
+
+<select id="itemCategory">
+
+<option value="">
+Select Category
+</option>
+
+<option>
+Groceries
+</option>
+
+<option>
+Snacks
+</option>
+
+<option>
+Beverages
+</option>
+
+<option>
+Vegetables
+</option>
+
+<option>
+Others
+</option>
+
+</select>
+
+<button id="addItemBtn">
+Add Item
+</button>
+
+</div>
+<div class="card">
+
+<h2>📊 Room Statistics</h2>
+
+<p id="totalItems">
+0 Items
+</p>
+
+<p id="totalMembers">
+0 Members
+</p>
+
+</div>
+<div class="card">
+
+<h2>Members</h2>
+
+<div id="membersList">
+
+No Members Yet
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>📊 Shopping Summary</h2>
+
+<p id="totalItems">
+0 Items
+</p>
+
+<p id="totalMembers">
+0 Members
+</p>
+
+<p id="estimatedBudget">
+Estimated Budget: ₹0
+</p>
+
+</div>
+<div class="card">
+
+<h2>
+Shared Cart
+</h2>
+
+<div id="cartItems">
+
+Cart Empty
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>
+Activity Log
+</h2>
+
+<div id="activityLog">
+
+No Activity
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<script
+type="module"
+src="room.js">
+</script>
+<button id="topBtn">
+⬆
+</button>
+
+</body>
+</html>

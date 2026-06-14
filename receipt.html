@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>CartShare Receipt</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<div class="receipt-container">
+    
+<h1>🛒 CartShare</h1>
+
+<h2>Group Shopping Receipt</h2>
+
+<div id="receiptInfo"></div>
+
+<hr>
+
+<div id="receiptItems"></div>
+
+<hr>
+
+<h2 id="totalQuantity">
+Total Quantity: 0
+</h2>
+
+<h2 id="grandTotal">
+Grand Total: ₹0
+</h2>
+
+<div class="receipt-buttons">
+
+<button onclick="window.print()">
+Print Receipt
+</button>
+
+<button onclick="goBack()">
+Back To Room
+</button>
+
+</div>
+
+</div>
+
+<script
+type="module"
+src="receipt.js">
+</script>
+
+</body>
+</html>
