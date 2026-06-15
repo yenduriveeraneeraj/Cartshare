@@ -126,16 +126,20 @@ gap:10px;
 
 .grid-layout{
 
-display:grid;
+display:flex;
 
-grid-template-columns:
-repeat(auto-fit,minmax(350px,1fr));
+flex-direction:column;
 
 gap:20px;
+
+width:100%;
 
 }
 
 .card{
+
+  width:100%;
+box-sizing:border-box;
 
 background:white;
 
